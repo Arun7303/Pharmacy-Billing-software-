@@ -1,0 +1,39 @@
+{
+  "version": "auto-py-to-exe-configuration_v1",
+  "pyinstallerOptions": [
+    {
+      "optionDest": "onefile",
+      "value": false
+    },
+    {
+      "optionDest": "noconsole",
+      "value": false
+    },
+    {
+      "optionDest": "icon_file",
+      "value": ""
+    },
+    {
+      "optionDest": "add_data",
+      "value": [
+        [
+          "C:/Users/arun2/Desktop/pharmacy/libiconv.dll",
+          "."
+        ],
+        [
+          "C:/Users/arun2/Desktop/pharmacy/libzbar-0.dll",
+          "."
+        ],
+        [
+          "C:/Users/arun2/Desktop/pharmacy/libzbar.dll",
+          "."
+        ]
+      ]
+    }
+  ],
+  "nonPyinstallerOptions": {
+    "scriptLocation": "C:/Users/arun2/Desktop/pharmacy/main.py",
+    "outputDirectory": "C:/Users/arun2/Desktop/pharmacy/output",
+    "outputName": "pharmacy_app"
+  }
+}

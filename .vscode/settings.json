@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "pharmacy",
+            "database": "${workspaceFolder:pharmacy}/pharmacy.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
